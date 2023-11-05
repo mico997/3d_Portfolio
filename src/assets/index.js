@@ -31,6 +31,8 @@ import restaurant from "./restaurant.png";
 import iwinckle from "./iwinckle.png";
 import reactPortfolio from "./react-portfolio.png";
 import tripadvisor from "./tripadvisor.png";
+import ux from "./ux.png";
+import webmaster from "./webmaster.png";
 
 export {
   logo,
@@ -63,4 +65,6 @@ export {
   iwinckle,
   reactPortfolio,
   tripadvisor,
+  ux,
+  webmaster,
 };

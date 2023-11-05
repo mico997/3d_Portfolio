@@ -24,6 +24,8 @@ import {
   reactPortfolio,
   tripadvisor,
   threejs,
+  ux,
+  webmaster,
 } from "../assets";
 
 export const navLinks = [
@@ -43,17 +45,28 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Front-End Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
+  {
+    title: "React Native Developer",
+    icon: mobile,
+  },
+
+  {
+    title: "UX Designer",
+    icon: ux,
+  },
+
+  {
+    title: "Webmaster",
+    icon: webmaster,
+  },
+
   {
     title: "Content Creator",
     icon: creator,
