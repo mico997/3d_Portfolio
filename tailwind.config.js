@@ -1,3 +1,5 @@
+const { color } = require("framer-motion");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx}"],
@@ -19,7 +21,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern": " url('/src/assets/herobg.png') ",
       },
     },
   },
