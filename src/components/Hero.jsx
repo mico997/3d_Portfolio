@@ -20,11 +20,14 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a <span className="text-[#FF5858]">Full Stack Developer</span>,
-            <br className="sm:block hidden" /> I develop Full stack
-            Applications, <br className="sm:block hidden" /> user interfaces, 3D
-            visuals <br className="sm:block hidden" />
+            <br /> I develop Full stack Applications, <br /> user interfaces, 3D
+            visuals <br />
             and web applications.
           </p>
+        </div>
+
+        <div className="mt-14">
+          <div className="w-1 sm:h-40 h-90 orange-pink-gradient" />
         </div>
       </div>
 
