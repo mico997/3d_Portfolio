@@ -161,7 +161,7 @@ const experiences = [
     company_name: "Sunrun",
     icon: sunrun,
     iconBg: "#E6DEDD",
-    date: "Dec 2021 - Aug 2023",
+    date: "Dec 2018 - October 2019",
     points: [
       "Analyzed client's energy usage by collecting electricity information and made recommendations to optimize energy usage.",
       "Explained marketing and environmental benefits of purchasing renewable energy and differentiated products against traditional energy offerings",
@@ -174,7 +174,7 @@ const experiences = [
     company_name: "Giant",
     icon: giant,
     iconBg: "#E6DEDD",
-    date: "Feb 2019 - October 2021",
+    date: "Feb 2016 - October 2018",
     points: [
       "Establish procedures and processes to assure regulatory compliance. ",
       "Develop, implement, monitor, and manage safety programs and procedures",
