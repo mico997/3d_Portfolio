@@ -24,40 +24,44 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true);
 
-    emailjs
-      .send(
-        "service_t535sam",
-        "template_h6ipi1g",
-        {
-          from_name: form.name,
-          to_name: "Mike Vidal",
-          from_email: form.email,
-          to_email: "mike.vidal82@gmail.com",
-          message: form.message,
-        },
-        "hEip0C6FviFurX__h"
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank You. I will get back to you as soon as possible.");
+    {
+      form.name && form.email && form.message
+        ? (setLoading(true),
+          emailjs
+            .send(
+              "service_t535sam",
+              "template_h6ipi1g",
+              {
+                from_name: form.name,
+                to_name: "Mike Vidal",
+                from_email: form.email,
+                to_email: "mike.vidal82@gmail.com",
+                message: form.message,
+              },
+              "hEip0C6FviFurX__h"
+            )
+            .then(
+              () => {
+                setLoading(false);
+                alert("Thank You. I will get back to you as soon as possible.");
 
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
+                setForm({
+                  name: "",
+                  email: "",
+                  message: "",
+                });
+              },
+              (error) => {
+                setLoading(false);
 
-          console.log(error);
+                console.log(error);
 
-          alert("Something went wrong.");
-        }
-      );
+                alert("Something went wrong.");
+              }
+            ))
+        : alert("Fill out the Form in order to submit");
+    }
   };
 
   return (
