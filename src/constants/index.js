@@ -38,6 +38,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -281,7 +285,7 @@ const projects = [
   {
     name: "Trip Advisor",
     description:
-      "A single-page React application that utilizes API, NodeJS, HTML, CSS, and JavaScript to communicate with a rapid API and render information about hotels, restaurants, and attractions in your area. This application requires your browser to have access to your location to properly function. ",
+      "A single-page React application that utilizes API, NodeJS, HTML, CSS, and JavaScript to communicate with a rapid API and render information about hotels, restaurants, and attractions in your area. This application requires your browser to have access to your location to properly function. Chrome browser is recommended! ",
     tags: [
       {
         name: "ReactJs",
