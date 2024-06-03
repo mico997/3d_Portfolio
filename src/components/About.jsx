@@ -46,14 +46,16 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I am a highly skilled full-stack developer with a strong background in
-        the MERN stack. With years of hands-on experience, I have honed my
-        ability to design, build, and maintain robust web applications that
-        leverage the power of MongoDB, Express, React, and Node.js. My expertise
-        extends to both front-end and back-end development, allowing me to craft
-        seamless and responsive user interfaces, as well as scalable server-side
-        solutions. I am passionate about creating efficient, dynamic, and
-        user-friendly web experiences, and I am always eager to take on new
-        challenges in the ever-evolving world of web development.
+        Data Analysis and Developing full stack application with the MERN stack.
+        With years of hands-on experience, I have honed my ability to design,
+        build, and maintain robust web applications that leverage the power of
+        MongoDB, Express, React, and Node.js. My expertise extends to both
+        front-end and back-end development and dat analysis, allowing me to
+        craft seamless and responsive user interfaces, scalable server-side
+        solutions as well as ana;yzing data and creating Informative dashboards
+        used to drive business insights. I am passionate about creating
+        efficient, dynamic, and business decisions. I am always eager to take on
+        new challenges in the ever-evolving world of web development.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

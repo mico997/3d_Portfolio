@@ -24,8 +24,10 @@ import threejs from "./tech/threejs.svg";
 
 import giant from "./company/giant.png";
 import shopify from "./company/shopify.png";
+import grafton from "./company/grafton.png";
 import cicis from "./company/cicisboutique.png";
-import sunrun from "./company/sunrun.png";
+import stream9 from "./company/stream9.png";
+import rxo from "./company/rxo.png";
 
 import restaurant from "./restaurant.png";
 import iwinckle from "./iwinckle.png";
@@ -40,6 +42,7 @@ export {
   creator,
   mobile,
   web,
+  rxo,
   github,
   live,
   menu,
@@ -60,7 +63,8 @@ export {
   giant,
   shopify,
   cicis,
-  sunrun,
+  stream9,
+  grafton,
   restaurant,
   iwinckle,
   reactPortfolio,
