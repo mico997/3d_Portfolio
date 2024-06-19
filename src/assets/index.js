@@ -21,6 +21,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import sqlicon from "./tech/sqlicon.png";
+import excel from "./tech/excel.png";
+import powerbi from "./tech/powerbi.png";
+import sharepoint from "./tech/sharepoint.png";
+import tableau from "./tech/tableau.png";
+import vba from "./tech/vba.png";
 
 import giant from "./company/giant.png";
 import shopify from "./company/shopify.png";
@@ -29,6 +35,7 @@ import cicis from "./company/cicisboutique.png";
 import stream9 from "./company/stream9.png";
 import rxo from "./company/rxo.png";
 
+import sql from "./sql.png";
 import restaurant from "./restaurant.png";
 import iwinckle from "./iwinckle.png";
 import reactPortfolio from "./react-portfolio.png";
@@ -58,6 +65,13 @@ export {
   reactjs,
   redux,
   tailwind,
+  sqlicon,
+  sql,
+  excel,
+  sharepoint,
+  tableau,
+  vba,
+  powerbi,
   typescript,
   threejs,
   giant,

@@ -12,13 +12,20 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  sql,
   git,
   figma,
   docker,
+  sqlicon,
   giant,
   cicis,
   rxo,
   stream9,
+  excel,
+  sharepoint,
+  tableau,
+  vba,
+  powerbi,
   shopify,
   grafton,
   restaurant,
@@ -81,17 +88,27 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "MYSQL",
+    icon: sqlicon,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Excel",
+    icon: excel,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Power-BI",
+    icon: powerbi,
   },
+
+  {
+    name: "Tableau",
+    icon: tableau,
+  },
+  {
+    name: "VBA",
+    icon: vba,
+  },
+
   {
     name: "TypeScript",
     icon: typescript,
@@ -120,14 +137,7 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
+
   {
     name: "docker",
     icon: docker,
@@ -231,6 +241,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Covid Data Exploration",
+    description:
+      "A project which utilize MYSQL Server to explore global COVID 19 data. Skills Used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Function, Creating Views, Converting Data Types",
+    tags: [
+      {
+        name: "MYSQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Azure Data Studio",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sql,
+    source_code_link: "https://github.com/mico997/Data-Exploration",
+  },
   {
     name: "Devcamp Restaurant",
     description:
