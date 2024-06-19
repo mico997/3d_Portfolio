@@ -1,20 +1,14 @@
 import {
   mobile,
   backend,
-  creator,
   web,
-  javascript,
   typescript,
-  html,
-  css,
   reactjs,
   redux,
   tailwind,
   nodejs,
   mongodb,
   sql,
-  git,
-  figma,
   docker,
   sqlicon,
   giant,
@@ -22,11 +16,9 @@ import {
   rxo,
   stream9,
   excel,
-  sharepoint,
   tableau,
   vba,
   powerbi,
-  shopify,
   grafton,
   restaurant,
   iwinckle,
@@ -34,7 +26,7 @@ import {
   tripadvisor,
   threejs,
   ux,
-  webmaster,
+  analyst,
 } from "../assets";
 
 export const navLinks = [
@@ -58,6 +50,10 @@ export const navLinks = [
 
 const services = [
   {
+    title: "Data Analyst",
+    icon: analyst,
+  },
+  {
     title: "Front-End Developer",
     icon: web,
   },
@@ -76,13 +72,8 @@ const services = [
   },
 
   {
-    title: "Webmaster",
-    icon: webmaster,
-  },
-
-  {
-    title: "Content Creator",
-    icon: creator,
+    title: "SQL Developer",
+    icon: sqlicon,
   },
 ];
 
@@ -338,11 +329,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Javascript",
+        name: "Vite.Js",
         color: "green-text-gradient",
       },
       {
-        name: "CSS",
+        name: "Three.Js",
         color: "pink-text-gradient",
       },
     ],
