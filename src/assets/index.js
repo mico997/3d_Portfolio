@@ -34,6 +34,7 @@ import reactPortfolio from "./react-portfolio.png";
 import tripadvisor from "./tripadvisor.png";
 import ux from "./ux.png";
 import analyst from "./analyst.png";
+import covidDashboard from "./covidDashboard.png";
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   tripadvisor,
   ux,
   analyst,
+  covidDashboard,
 };

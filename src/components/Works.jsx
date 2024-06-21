@@ -94,10 +94,11 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           These are a few projects showcasing my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to the code repository (top-left) and live demos link (top
-          right) in it. It reflects my ability to solve complex problems, work
-          with different technologies, and manage projects effectively.
+          real-world examples of my work. Each project has a brief description
+          with links to the <br></br>code repository (Github Icon) and live demo
+          (Live Icon. Top Right). It reflects my ability to solve complex
+          problems, work with different technologies, and manage projects
+          effectively.
         </motion.p>
       </div>
 

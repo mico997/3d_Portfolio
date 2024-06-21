@@ -9,6 +9,7 @@ import {
   nodejs,
   mongodb,
   sql,
+  covidDashboard,
   docker,
   sqlicon,
   giant,
@@ -233,9 +234,33 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Covid Dashboard",
+    description:
+      "A project which utilize MYSQL data and Tableau to create a visualisation dashboard. Skills Used: Tableau",
+    tags: [
+      {
+        name: "Tableau",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Data Visualisation",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Dashboards",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: covidDashboard,
+    source_code_link:
+      "https://github.com/mico997/Data-Visualisation-Tableau/tree/main",
+    project_link:
+      "https://public.tableau.com/app/profile/mike.kwekam/viz/CovidDashboard_17189333385750/Dashboard1?publish=yeshttps://public.tableau.com/shared/N89C8Q6BM",
+  },
+  {
     name: "Covid Data Exploration",
     description:
-      "A project which utilize MYSQL Server to explore global COVID 19 data. Skills Used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Function, Creating Views, Converting Data Types",
+      "A project which utilizes MYSQL Server to explore global COVID 19 data. Skills Used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Function, Creating Views, Converting Data Types",
     tags: [
       {
         name: "MYSQL",
