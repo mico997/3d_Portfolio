@@ -4,9 +4,10 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { github, live } from "../assets";
-import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { SectionWrapper } from "../hoc";
+import { delay } from "framer-motion/dom";
 
 const ProjectCard = ({
   index,
@@ -18,14 +19,18 @@ const ProjectCard = ({
   project_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      initial="hidden"
+      animate="show"
+    >
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px]  w-full"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -83,30 +88,30 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} initial="hidden" animate="show">
         <p className={styles.sectionSubText}>My Work</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
-
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+          variants={fadeIn("", "", 0.2, 1)}
+          initial="hidden"
+          animate="show"
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           These are a few projects showcasing my skills and experience through
           real-world examples of my work. Each project has a brief description
-          with links to the <br></br>code repository (Github Icon) and live demo
-          (Live Icon. Top Right). It reflects my ability to solve complex
-          problems, work with different technologies, and manage projects
-          effectively.
+          with links to the code repository (Github Icon) and live demo (Live
+          Icon). Top Right. It reflects my ability to solve complex problems,
+          work with different technologies, and manage projects effectively.
         </motion.p>
       </div>
-
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+      {console.log("rendered works component")}
     </>
   );
 };
