@@ -1,1 +1,0 @@
-className="relative w-full h-screen mx-auto"
