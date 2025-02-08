@@ -1,25 +1,26 @@
 import {
   mobile,
   backend,
-  creator,
   web,
-  javascript,
   typescript,
-  html,
-  css,
   reactjs,
   redux,
   tailwind,
   nodejs,
   mongodb,
-  git,
-  figma,
+  sql,
+  covidDashboard,
   docker,
+  sqlicon,
   giant,
   cicis,
   rxo,
+  upwork,
   stream9,
-  shopify,
+  excel,
+  tableau,
+  vba,
+  powerbi,
   grafton,
   restaurant,
   iwinckle,
@@ -27,7 +28,7 @@ import {
   tripadvisor,
   threejs,
   ux,
-  webmaster,
+  analyst,
 } from "../assets";
 
 export const navLinks = [
@@ -51,6 +52,10 @@ export const navLinks = [
 
 const services = [
   {
+    title: "Data Analyst",
+    icon: analyst,
+  },
+  {
     title: "Front-End Developer",
     icon: web,
   },
@@ -69,29 +74,34 @@ const services = [
   },
 
   {
-    title: "Webmaster",
-    icon: webmaster,
-  },
-
-  {
-    title: "Content Creator",
-    icon: creator,
+    title: "SQL Developer",
+    icon: sqlicon,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "MYSQL",
+    icon: sqlicon,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Excel",
+    icon: excel,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Power-BI",
+    icon: powerbi,
   },
+
+  {
+    name: "Tableau",
+    icon: tableau,
+  },
+  {
+    name: "VBA",
+    icon: vba,
+  },
+
   {
     name: "TypeScript",
     icon: typescript,
@@ -120,14 +130,7 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
+
   {
     name: "docker",
     icon: docker,
@@ -136,11 +139,27 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Freelancer",
+    company_name: "Upwork",
+    icon: upwork,
+    iconBg: "#383E56",
+    date: "Oct 2024 - Current",
+    points: [
+      "I have participated in several contracts since my last contract with RXO.",
+      "The most prominent is a contract with a company called Tachet Palm Juice. ",
+      "I am a lead developer in the website redesign project which is scheduled to end its last sprint on 01/30.",
+      " I also had a minor contract with Social Buzz as a marketing data analyst to assist in determining their most popular category. ",
+      " Most of this work was done with Excel with data extracted using MYSQL",
+      "Utilized KPI Reporting techniques in data analysis to provide actionable insights for business growth strategies",
+      "Gathered data using reporting tools, SQL queries and analyzed logistics invoice data to research ordercharges, ensuring accuracy and compliance with financial practices. ",
+    ],
+  },
+  {
     title: "Data Analyst - Contract",
     company_name: "RXO",
     icon: rxo,
     iconBg: "#383E56",
-    date: "Febuary 2024 - April 2024",
+    date: "Febuary 2024 - Oct 2024",
     points: [
       "Utilized Excel and Power BI to develop & implement data analytics solutions and provide updates via dashboards and creating reports ",
       "Managed and enhanced the company's data visualization by creating intuitive dashboard reporting, resulting in improved business insights",
@@ -203,34 +222,52 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Mike proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Mike does.",
-    name: "John Tanner",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Mike and his team optimized our website, our traffic increased by 30%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
+  {
+    name: "Covid Dashboard",
+    description:
+      "A project which utilize MYSQL data and Tableau to create a visualisation dashboard. Skills Used: Tableau",
+    tags: [
+      {
+        name: "Tableau",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Data Visualisation",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Dashboards",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: covidDashboard,
+    source_code_link:
+      "https://github.com/mico997/Data-Visualisation-Tableau/tree/main",
+    project_link:
+      "https://public.tableau.com/app/profile/mike.kwekam/viz/CovidDashboard_17189333385750/Dashboard1?publish=yeshttps://public.tableau.com/shared/N89C8Q6BM",
+  },
+  {
+    name: "Covid Data Exploration",
+    description:
+      "A project which utilizes MYSQL Server to explore global COVID 19 data. Skills Used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Function, Creating Views, Converting Data Types",
+    tags: [
+      {
+        name: "MYSQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Azure Data Studio",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sql,
+    source_code_link: "https://github.com/mico997/Data-Exploration",
+  },
   {
     name: "Devcamp Restaurant",
     description:
@@ -307,11 +344,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Javascript",
+        name: "Vite.Js",
         color: "green-text-gradient",
       },
       {
-        name: "CSS",
+        name: "Three.Js",
         color: "pink-text-gradient",
       },
     ],
@@ -321,4 +358,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
