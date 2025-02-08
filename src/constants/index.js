@@ -15,6 +15,7 @@ import {
   giant,
   cicis,
   rxo,
+  upwork,
   stream9,
   excel,
   tableau,
@@ -138,11 +139,27 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Freelancer",
+    company_name: "Upwork",
+    icon: upwork,
+    iconBg: "#383E56",
+    date: "Oct 2024 - Current",
+    points: [
+      "I have participated in several contracts since my last contract with RXO.",
+      "The most prominent is a contract with a company called Tachet Palm Juice. ",
+      "I am a lead developer in the website redesign project which is scheduled to end its last sprint on 08/30.",
+      " I also had a minor contract with Social Buzz as a marketing data analyst to assist with determining their most popular category. ",
+      " Most of this work was done with Excel with data extracted using MYSQL",
+      "Utilized KPI Reporting techniques in data analysis to provide actionable insights for business growth strategies",
+      "Gathered data using reporting tools, SQL queries and analyzed logistics invoice data to research ordercharges, ensuring accuracy and compliance with financial practices. ",
+    ],
+  },
+  {
     title: "Data Analyst - Contract",
     company_name: "RXO",
     icon: rxo,
     iconBg: "#383E56",
-    date: "Febuary 2024 - April 2024",
+    date: "Febuary 2024 - Oct 2024",
     points: [
       "Utilized Excel and Power BI to develop & implement data analytics solutions and provide updates via dashboards and creating reports ",
       "Managed and enhanced the company's data visualization by creating intuitive dashboard reporting, resulting in improved business insights",

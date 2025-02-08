@@ -26,6 +26,7 @@ import grafton from "./company/grafton.png";
 import cicis from "./company/cicisboutique.png";
 import stream9 from "./company/stream9.png";
 import rxo from "./company/rxo.png";
+import upwork from "./company/upwork.png";
 
 import sql from "./sql.png";
 import restaurant from "./restaurant.png";
@@ -42,6 +43,7 @@ export {
   mobile,
   web,
   rxo,
+  upwork,
   github,
   live,
   menu,
