@@ -147,8 +147,8 @@ const experiences = [
     points: [
       "I have participated in several contracts since my last contract with RXO.",
       "The most prominent is a contract with a company called Tachet Palm Juice. ",
-      "I am a lead developer in the website redesign project which is scheduled to end its last sprint on 08/30.",
-      " I also had a minor contract with Social Buzz as a marketing data analyst to assist with determining their most popular category. ",
+      "I am a lead developer in the website redesign project which is scheduled to end its last sprint on 01/30.",
+      " I also had a minor contract with Social Buzz as a marketing data analyst to assist in determining their most popular category. ",
       " Most of this work was done with Excel with data extracted using MYSQL",
       "Utilized KPI Reporting techniques in data analysis to provide actionable insights for business growth strategies",
       "Gathered data using reporting tools, SQL queries and analyzed logistics invoice data to research ordercharges, ensuring accuracy and compliance with financial practices. ",
