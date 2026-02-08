@@ -16,6 +16,7 @@ import {
   cicis,
   rxo,
   upwork,
+  siemens,
   stream9,
   excel,
   tableau,
@@ -139,11 +140,25 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Gen AI Data Analyst - Contract - 6 Months",
+    company_name: "Siemens",
+    icon: siemens,
+    iconBg: "#383E56",
+    date: "Mar 2025 - Sept 2025",
+    points: [
+      "Tests Gen AI solutions and Gen-AI content enablement with existing product documentation and improves its quality based on Gen AI best practices",
+      "Analyzes overall content data trends to create and proactively communicate actionable insights that help drive higher content quality ",
+      "Optimizes content and meta-data quality, processes and activation channel choices based on analysis",
+      " Conducts content audits (if not already in place) for owned downstream sites and internal data repositories ",
+      " Oversees the quality and supplemental meta-data of the content created to ensure that the complete, accurate, and error-free package is available for upload to upstream and downstream systems.",
+    ],
+  },
+  {
     title: "Freelancer",
     company_name: "Upwork",
     icon: upwork,
     iconBg: "#383E56",
-    date: "Oct 2024 - Current",
+    date: "Oct 2024 - Mar 2025",
     points: [
       "I have participated in several contracts since my last contract with RXO.",
       "The most prominent is a contract with a company called Tachet Palm Juice. ",
@@ -155,7 +170,7 @@ const experiences = [
     ],
   },
   {
-    title: "Data Analyst - Contract",
+    title: "Data Analyst - Contract - 9 Months",
     company_name: "RXO",
     icon: rxo,
     iconBg: "#383E56",
@@ -202,10 +217,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "December 2019 - March 2020",
     points: [
-      "Analyzed client's energy usage by collecting electricity information and made recommendations to optimize energy usage.",
-      "Explained marketing and environmental benefits of purchasing renewable energy and differentiated products against traditional energy offerings",
-      "Developed and updated client reports and documents to maintain customer service and internal records.",
-      "onducted solar consultations with new prospects, and sold solar energy programs",
+      "Design and implementation of low-latency, high-availability, and performant applications using HTML, CSS, JavaScript, React, Angular, Bootstrap, Redux, and Material-UI",
+      "Expertise in using AngularJS directives, Controllers, Filters, Services, Temples, Events and Injectors",
+      "Migrated some of the application from Angular.JS 1 to Angular  and componentize the code as per the Angular.JS recommendations for better testability.",
+      "Good knowledge in Angular2/4 concepts like Components, bindings, Observables, Reactive Forms, custom validators, AUTH Guards.",
     ],
   },
   {

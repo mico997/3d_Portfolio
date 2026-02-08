@@ -27,6 +27,7 @@ import cicis from "./company/cicisboutique.png";
 import stream9 from "./company/stream9.png";
 import rxo from "./company/rxo.png";
 import upwork from "./company/upwork.png";
+import siemens from "./company/siemens.png";
 
 import sql from "./sql.png";
 import restaurant from "./restaurant.png";
@@ -44,6 +45,7 @@ export {
   web,
   rxo,
   upwork,
+  siemens,
   github,
   live,
   menu,
