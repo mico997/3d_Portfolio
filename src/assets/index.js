@@ -37,6 +37,7 @@ import tripadvisor from "./tripadvisor.png";
 import ux from "./ux.png";
 import analyst from "./analyst.png";
 import covidDashboard from "./covidDashboard.png";
+import stopWatch from "./stopwatch.png";
 
 export {
   logo,
@@ -75,4 +76,5 @@ export {
   ux,
   analyst,
   covidDashboard,
+  stopWatch,
 };

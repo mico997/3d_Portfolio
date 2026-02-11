@@ -9,6 +9,7 @@ import {
   nodejs,
   mongodb,
   sql,
+  stopWatch,
   covidDashboard,
   docker,
   sqlicon,
@@ -238,6 +239,28 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "StopWatch",
+    description:
+      "A digital Stopwatch that has the ability to record laps, pause and reset built mainly using Javscript Functions",
+    tags: [
+      {
+        name: "HTML5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: stopWatch,
+    source_code_link: "https://github.com/mico997/Stopwatch/tree/main",
+    project_link: "https://stopwatch-pi-navy.vercel.app/",
+  },
   {
     name: "Covid Dashboard",
     description:
