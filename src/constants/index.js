@@ -31,6 +31,7 @@ import {
   threejs,
   ux,
   analyst,
+  careerbreak,
 } from "../assets";
 
 export const navLinks = [
@@ -140,6 +141,19 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Career Break - Full Time",
+    company_name: "Career Break",
+    icon: careerbreak,
+    iconBg: "#383E56",
+    date: "Oct 2025 - Current",
+    points: [
+      "Took a planned career break to focus on professional development and technical skill building.",
+      "Completed coursework and self-directed learning in areas including web development, networking, and data analysis.",
+      "Worked on personal projects involving React, SQL, and networking configuration to strengthen technical capabilities.",
+      "Engaged in online communities and forums to stay updated on industry trends and best practices.",
+    ],
+  },
   {
     title: "Gen AI Data Analyst - Contract - 6 Months",
     company_name: "Siemens",
