@@ -28,6 +28,7 @@ import stream9 from "./company/stream9.png";
 import rxo from "./company/rxo.png";
 import upwork from "./company/upwork.png";
 import siemens from "./company/siemens.png";
+import careerbreak from "./company/careerbreak.png";
 
 import sql from "./sql.png";
 import restaurant from "./restaurant.png";
@@ -37,6 +38,7 @@ import tripadvisor from "./tripadvisor.png";
 import ux from "./ux.png";
 import analyst from "./analyst.png";
 import covidDashboard from "./covidDashboard.png";
+import stopWatch from "./stopwatch.png";
 
 export {
   logo,
@@ -75,4 +77,6 @@ export {
   ux,
   analyst,
   covidDashboard,
+  stopWatch,
+  careerbreak,
 };
