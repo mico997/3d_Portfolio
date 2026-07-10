@@ -31,6 +31,7 @@ import {
   threejs,
   ux,
   analyst,
+  stackSavvii,
   careerbreak,
 } from "../assets";
 
@@ -142,11 +143,22 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Founder & Engineer ",
+    company_name: "stack-savvi",
+    icon: stackSavvii,
+    iconBg: "#431b1b",
+    date: "JAN 2026 - current",
+    points: [
+      "Founded Stack Savvii Technologies, a software development company delivering custom design solutions.",
+      "Some of our expertise includes- AI solutions, SaaS platforms, custom websites, SEO, workflow automation, secure APIs, Stripe integrations, CRM systems, and cloud deployments",
+    ],
+  },
+  {
     title: "Career Break - Full Time",
     company_name: "Career Break",
     icon: careerbreak,
     iconBg: "#383E56",
-    date: "Oct 2025 - Current",
+    date: "Oct 2025 - Dec 2025",
     points: [
       "Took a planned career break to focus on professional development and technical skill building.",
       "Completed coursework and self-directed learning in areas including web development, networking, and data analysis.",

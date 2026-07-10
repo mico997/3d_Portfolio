@@ -29,6 +29,7 @@ import rxo from "./company/rxo.png";
 import upwork from "./company/upwork.png";
 import siemens from "./company/siemens.png";
 import careerbreak from "./company/careerbreak.png";
+import stackSavvii from "./company/stackSavvii.png";
 
 import sql from "./sql.png";
 import restaurant from "./restaurant.png";
@@ -74,6 +75,7 @@ export {
   iwinckle,
   reactPortfolio,
   tripadvisor,
+  stackSavvii,
   ux,
   analyst,
   covidDashboard,
