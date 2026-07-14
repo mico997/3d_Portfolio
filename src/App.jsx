@@ -9,7 +9,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
-import ParticlesBg from "./components/particlesBg";
+import ParticlesBg from "./components/ParticlesBg";
 
 const App = () => {
   return (
